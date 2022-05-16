@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Navigation from './Components/Navigation';
+import About from './Pages/About';
+import ContactMe from './Pages/ContactMe';
+import Work from './Pages/Work';
 
 function App() {
+  const [page, setPage] = useState('about')
+  const Render = () => {
+    switch(page){
+      case 'about':
+      return <About />
+      case 'contact':
+      return <ContactMe />
+      case 'work':
+      return <Work />
+    }
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation page={page} setPage={setPage}/>
+      <Render />
     </div>
   );
 }
