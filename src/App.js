@@ -4,6 +4,7 @@ import Navigation from './Components/Navigation';
 import About from './Pages/About';
 import ContactMe from './Pages/ContactMe';
 import Work from './Pages/Work';
+import Resume from './Pages/Resume';
 
 function App() {
   const [page, setPage] = useState('about')
@@ -15,6 +16,8 @@ function App() {
       return <ContactMe />
       case 'work':
       return <Work />
+      case 'resume':
+      return <Resume />
     }
   }
   return (

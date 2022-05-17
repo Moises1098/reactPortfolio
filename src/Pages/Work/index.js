@@ -6,10 +6,14 @@ import CodeQuiz from './assets/images/CodeQuiz.png'
 import CardGroup from "react-bootstrap/CardGroup"
 import Card from "react-bootstrap/Card"
 import Button from "react-bootstrap/Button"
+
 import './work.css'
 const Work = () => {
     return (
-<div class="py-3 px-5">
+        <div class="py-3 px-5">
+        <Card border="secondary">
+            <Card.Header id="header">My Work</Card.Header>
+            <Card.Body>
 <CardGroup>
   <Card>
     <Card.Img variant="top" src={SelectNutrition} />
@@ -77,7 +81,9 @@ const Work = () => {
     </Card.Body>
   </Card>  
 </CardGroup>
-</div>
+            </Card.Body>
+        </Card>
+    </div>
 )
 }
 
