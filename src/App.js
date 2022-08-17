@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import './App.css';
 import Navigation from './Components/Navigation';
+import Home from './Pages/Home';
 import About from './Pages/About';
 import ContactMe from './Pages/ContactMe';
 import Work from './Pages/Work';
 import Resume from './Pages/Resume';
-import Home from './Pages/Home';
+
 
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
     switch(page){
       case 'home':
       return <Home />
+      case 'about':
+        return <About />
       case 'contact':
       return <ContactMe />
       case 'work':
