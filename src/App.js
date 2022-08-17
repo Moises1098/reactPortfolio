@@ -14,8 +14,6 @@ function App() {
     switch(page){
       case 'home':
       return <Home />
-      case 'about':
-      return <About />
       case 'contact':
       return <ContactMe />
       case 'work':
