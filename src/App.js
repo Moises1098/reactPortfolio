@@ -30,9 +30,9 @@ function App() {
     }
   }
   return (
-    <div className="App">
+    <div class="app">
       <Navigation page={page} setPage={setPage}/>
-      
+      <Render />
     </div>
   );
 }
