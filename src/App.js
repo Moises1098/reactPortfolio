@@ -5,6 +5,7 @@ import About from './Pages/About';
 import ContactMe from './Pages/ContactMe';
 import Work from './Pages/Work';
 import Resume from './Pages/Resume';
+import Home from './Pages/Home';
 
 function App() {
   const [page, setPage] = useState('home')
