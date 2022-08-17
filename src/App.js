@@ -9,7 +9,7 @@ import Home from './Pages/Home';
 
 
 function App() {
-  const [page, setPage] = useState('page')
+  const [page, setPage] = useState('home')
   const Render = () => {
     switch(page){
       case 'home':
