@@ -10,7 +10,7 @@ import Resume from './Pages/Resume';
 
 
 function App() {
-  const [page, setPage] = useState('home')
+  const [page, setPage] = useState('about')
   const Render = () => {
     switch(page){
       case 'home':
