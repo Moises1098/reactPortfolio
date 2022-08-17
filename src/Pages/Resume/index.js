@@ -2,7 +2,7 @@ import Card from "react-bootstrap/Card"
 import './resume.css'
 const Resume = ()=>{
     return(
-               <div className="py-3 px-5">
+               <div class="py-3 px-5">
                <Card border="secondary">
                    <Card.Header id="header">My Resume</Card.Header>
                    <Card.Body>

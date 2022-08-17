@@ -2,7 +2,7 @@ import Card from "react-bootstrap/Card"
 import './about.css'
 const About = ()=>{
     return (
-        <div classNameName="py-3 px-5">
+        <div className="py-3 px-5">
             <Card border="secondary">
                 <Card.Header id="header">About Me</Card.Header>
                 <Card.Body>
