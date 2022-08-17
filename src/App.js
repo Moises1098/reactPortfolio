@@ -15,12 +15,16 @@ function App() {
     switch(page){
       case 'home':
       return <Home />
+      
       case 'about':
-        return <About />
+      return <About />
+      
       case 'contact':
       return <ContactMe />
+
       case 'work':
       return <Work />
+      
       case 'resume':
       return <Resume />
     }
