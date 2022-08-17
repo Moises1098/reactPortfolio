@@ -18,7 +18,7 @@ const Navigation = (props) => {
       <Navbar.Brand>Moises Gonzalez</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="mr-auto">
+        <Nav classNameName="mr-auto">
           <Nav.Link onClick={clickHandler}href="home" id="home">Home</Nav.Link>
           <Nav.Link onClick={clickHandler}href="about" id="about">About Me</Nav.Link>
           <Nav.Link onClick={clickHandler}href="contact" id="contact">Contact Me</Nav.Link>

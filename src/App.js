@@ -24,13 +24,13 @@ function App() {
 
       case 'work':
       return <Work />
-      
+
       case 'resume':
       return <Resume />
     }
   }
   return (
-    <div className="App">
+    <div classNameName="App">
       <Navigation page={page} setPage={setPage}/>
       <Render />
     </div>
