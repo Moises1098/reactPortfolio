@@ -9,8 +9,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Navigation = (props) => { 
     const clickHandler = (event) => {
-        const id = event.target.id
-        props.setPage(id)
+      const id = event.target.id
+      props.setPage(id)
     }
     return ( 
       
