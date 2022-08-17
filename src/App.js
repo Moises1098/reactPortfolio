@@ -10,6 +10,8 @@ function App() {
   const [page, setPage] = useState('about')
   const Render = () => {
     switch(page){
+      case 'home':
+      return <Home />
       case 'about':
       return <About />
       case 'contact':
