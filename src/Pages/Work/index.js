@@ -60,7 +60,7 @@ const Work = () => {
   <Card>
     <Card.Img variant="top" src={Homepage} />
     <Card.Body>
-      <Card.Title class="title">Covid-19 Travel Info</Card.Title>
+      <Card.Title className='title'>Covid-19 Travel Info</Card.Title>
       <Card.Text>
       </Card.Text>
       <Button href="https://github.com/Moises1098/know-about-covid-19" target="_blank" variant="primary">Go to <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
@@ -71,7 +71,7 @@ const Work = () => {
   <Card>
     <Card.Img variant="top" src={CodeQuiz}/>
     <Card.Body>
-      <Card.Title class="title">Code Quiz</Card.Title>
+      <Card.Title className='title'>Code Quiz</Card.Title>
       <Card.Text>
       Javascript/CSS
       </Card.Text>

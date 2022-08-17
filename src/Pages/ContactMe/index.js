@@ -2,7 +2,7 @@ import Card from "react-bootstrap/Card"
 import './contact.css'
 const ContactMe = ()=>{
     return (
-        <div class="py-3 px-5">
+        <div className="py-3 px-5">
              <Card border="secondary">
              <Card.Header id="header">My Contact Information:</Card.Header>
           <Card.Body>
