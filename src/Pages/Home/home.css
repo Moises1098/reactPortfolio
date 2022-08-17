@@ -1,0 +1,39 @@
+html{
+    background-color: rgb(41, 44, 51);
+}
+.main {
+    color: #61dafb;
+    position: relative;
+    bottom: -240px;
+    left: 140px;
+    float: left;
+    
+}
+
+.right{
+    color: #61dafb;
+    position: relative;
+    bottom: -100px;
+    left: -220px;
+    float: right;
+}
+
+@media only screen and (max-width: 835px) {
+    .main {
+     justify-content: center;
+     text-align: center;
+     bottom: -140px;
+     left: auto;
+     float: none;
+
+
+     }
+     .right{
+        justify-content: center;
+        text-align: center;
+        float: none;
+        left: auto;
+        bottom: -300px;
+        
+     }
+}
