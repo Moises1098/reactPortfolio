@@ -43,4 +43,4 @@ function openCity(evt, cityName) {
 //   );
 // }
 
-export default App;
+export default openCity;
