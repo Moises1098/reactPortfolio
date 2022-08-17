@@ -9,10 +9,11 @@ import Home from './Pages/Home';
 
 
 function App() {
-  const [page, setPage] = useState('about')
+  const [page, setPage] = useState('page')
   const Render = () => {
     switch(page){
-     
+      case 'home':
+      return <Home />
       case 'about':
       return <About />
       case 'contact':
