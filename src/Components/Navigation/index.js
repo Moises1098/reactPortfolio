@@ -13,6 +13,7 @@ const Navigation = (props) => {
         props.setPage(id)
     }
     return ( 
+      
 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
 <Card.Img variant="left" src={ProfilePicture} height="100" />
       <Navbar.Brand>Moises Gonzalez</Navbar.Brand>
@@ -26,7 +27,35 @@ const Navigation = (props) => {
           <Nav.Link class="tablinks" onClick="openCity(event, 'Resume')" href="resume" id="resume">Resume</Nav.Link>
         </Nav>
       </Navbar.Collapse>
-    </Navbar>
+      <div>
+
+<h3>Fade in Tabs</h3>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+</div>
+
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+
+      </div>
+  </Navbar>
+    
     )  
 }
 export default Navigation
