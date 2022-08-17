@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="App">
       <Navigation page={page} setPage={setPage}/>
-      <Render />
+      
     </div>
   );
 }
