@@ -7,6 +7,7 @@ import Work from './Pages/Work';
 import Resume from './Pages/Resume';
 import Home from './Pages/Home';
 
+
 function App() {
   const [page, setPage] = useState('home')
   const Render = () => {
