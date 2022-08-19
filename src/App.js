@@ -14,17 +14,13 @@ function App() {
   const Render = () => {
     switch(page){
       case 'home':
-      return <Home />
-      
+      return <Home page={page} setPage={setPage} />
       case 'about':
-      return <About />
-      
+      return <About />     
       case 'contact':
       return <ContactMe />
-
       case 'work':
       return <Work />
-
       case 'resume':
       return <Resume />
     }
