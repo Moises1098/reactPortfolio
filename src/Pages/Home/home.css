@@ -19,5 +19,21 @@ html{
 }
 
 @media only screen and (max-width: 835px) {
-    
+    .main {
+     justify-content: center;
+     text-align: center;
+     bottom: -140px;
+     left: auto;
+     float: none;
+
+
+     }
+     .right{
+        justify-content: center;
+        text-align: center;
+        float: none;
+        left: auto;
+        bottom: -300px;
+        
+     }
 }
