@@ -26,7 +26,7 @@ function App() {
     }
   }
   return (
-    <div class="app">
+    <div className="App">
       <Navigation page={page} setPage={setPage}/>
       <Render />
     </div>
