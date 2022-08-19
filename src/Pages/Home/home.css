@@ -2,7 +2,7 @@ html{
     background-color: rgb(41, 44, 51);
 }
 body {
-    background-color: none;
+    background-color: rgb(41, 44, 51)
 }
 .main {
     color: #61dafb;
