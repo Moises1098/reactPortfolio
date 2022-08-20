@@ -18,9 +18,7 @@ const Home = () => {
 
         <div class="right"> 
         <h1>Skills</h1> 
-        <ListGroup variant="flush">
-
-        <ListGroup.Item>
+    
         <Button variant="primary" onClick={handleShow}>
         Web Developer
        </Button>
@@ -35,9 +33,7 @@ const Home = () => {
           </Button>
         </Modal.Footer>
       </Modal>
-        </ListGroup.Item>
-        <ListGroup>
-        <ListGroup.Item>
+      
         <Button variant="primary" onClick={handleShow}>
         Education
        </Button>
@@ -71,12 +67,11 @@ const Home = () => {
           </Button>
         </Modal.Footer>
       </Modal>
-        </ListGroup.Item>
-        </ListGroup>
+     
 
         <ListGroup.Item>Expirence</ListGroup.Item>
         <ListGroup.Item>Extra Curricualars</ListGroup.Item>
-        </ListGroup>
+    
         </div>
 
     </div>
