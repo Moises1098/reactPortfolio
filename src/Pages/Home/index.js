@@ -54,7 +54,7 @@ const Home = () => {
             Bachelors in Science: Biology with a minor in Cognitive Science in progess at UC San Diego
             June 2022 - Present
         </Modal.Body>
-        <Modal.Header closeButton>
+        <Modal.Header>
           <Modal.Title>Certificates</Modal.Title>
         </Modal.Header>
         <Modal.Body>
