@@ -10,6 +10,7 @@ const Home = () => {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     return (
+        <div>
     <div>
         <div className='main'>
         <h1>Hi! I'm Moises Gonzalez</h1>
@@ -37,7 +38,14 @@ const Home = () => {
       </Modal>
         </ListGroup.Item>
 
-        <ListGroup.Item>
+        <ListGroup.Item>Expirence</ListGroup.Item>
+        <ListGroup.Item>Extra Curricualars</ListGroup.Item>
+        </ListGroup>
+        </div>
+
+    </div>
+    <div>
+    <ListGroup.Item>
         <Button variant="primary" onClick={handleShow}>
         Education
        </Button>
@@ -72,12 +80,7 @@ const Home = () => {
         </Modal.Footer>
       </Modal>
         </ListGroup.Item>
-
-        <ListGroup.Item>Expirence</ListGroup.Item>
-        <ListGroup.Item>Extra Curricualars</ListGroup.Item>
-        </ListGroup>
-        </div>
-
+    </div>
     </div>
     )
 
