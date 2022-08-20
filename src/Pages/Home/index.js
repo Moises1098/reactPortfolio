@@ -39,17 +39,31 @@ const Home = () => {
 
         <ListGroup.Item>
         <Button variant="primary" onClick={handleShow}>
-        Degrees
+        Education
        </Button>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Computer Languages</Modal.Title>
+          <Modal.Title>Degrees</Modal.Title>
         </Modal.Header>
         <Modal.Body>
             Asociates in Arts: Communication, French, Liberal Arts: Mathematics and Science, and Liberal Arts: Emphasis from Southwester College
-            <br></br>
+           June 2019 - June 2022
+            <br> 
+
+            </br>
             Bachelors in Science: Biology with a minor in Cognitive Science in progess at UC San Diego
-            
+            June 2022 - Present
+        </Modal.Body>
+        <Modal.Header closeButton>
+          <Modal.Title>Certificates</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+           UCSD Web Development Bootcamp
+           Novemer 2021 - May 2022
+           <br>
+           </br>
+           LEADR Program- Scripps Journal Club
+           March 2022 -  April 2022
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
@@ -59,8 +73,8 @@ const Home = () => {
       </Modal>
         </ListGroup.Item>
 
-        <ListGroup.Item>Morbi leo risus</ListGroup.Item>
-        <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
+        <ListGroup.Item>Expirence</ListGroup.Item>
+        <ListGroup.Item>Extra Curricualars</ListGroup.Item>
         </ListGroup>
         </div>
 
