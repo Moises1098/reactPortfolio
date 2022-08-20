@@ -40,7 +40,7 @@ const Home = () => {
 
 
     
-        <Button variant="primary" onClick={handleShow}>
+        {/* <Button variant="primary" onClick={handleShow}>
         Web Developer
        </Button>
       <Modal show={show} onHide={handleClose}>
@@ -91,7 +91,7 @@ const Home = () => {
      
 
         <ListGroup.Item>Expirence</ListGroup.Item>
-        <ListGroup.Item>Extra Curricualars</ListGroup.Item>
+        <ListGroup.Item>Extra Curricualars</ListGroup.Item> */}
     
         </div>
 
