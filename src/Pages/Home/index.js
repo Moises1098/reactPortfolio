@@ -1,14 +1,10 @@
 import './home.css'
-import ListGroup from 'react-bootstrap/ListGroup';
-import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import Popover from 'react-bootstrap/Popover';
 
 const Home = () => {
-    const [show, setShow] = useState(false);
 
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
     return (
     <div>
         <div className='main'>
@@ -18,6 +14,31 @@ const Home = () => {
 
         <div class="right"> 
         <h1>Skills</h1> 
+
+        <Popover id="popover-basic">
+    <Popover.Header as="h3">Popover right</Popover.Header>
+    <Popover.Body>
+      And here's some <strong>amazing</strong> content. It's very engaging.
+      right?
+    </Popover.Body>
+  </Popover>
+);
+
+<OverlayTrigger trigger="click" placement="right" overlay={popover}>
+    <Button variant="success">Click me to see</Button>
+  </OverlayTrigger>
+);
+
+
+
+
+
+
+
+
+
+
+
     
         <Button variant="primary" onClick={handleShow}>
         Web Developer
