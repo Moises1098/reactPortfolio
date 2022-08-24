@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
 html{
     background-color: #283c5c;
 }
@@ -22,6 +24,11 @@ h2 {
     bottom: -100px;
     left: -220px;
     float: right;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    
 }
 
 @media only screen and (max-width: 835px) {
