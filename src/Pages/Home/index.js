@@ -15,19 +15,7 @@ const Home = () => {
         <div class="right"> 
         <h1>Skills</h1> 
 
-        <Popover id="popover-basic">
-    <Popover.Header as="h3">Popover right</Popover.Header>
-    <Popover.Body>
-      And here's some <strong>amazing</strong> content. It's very engaging.
-      right?
-    </Popover.Body>
-  </Popover>
-);
-
-<OverlayTrigger trigger="click" placement="right" overlay={popover}>
-    <Button variant="success">Click me to see</Button>
-  </OverlayTrigger>
-);
+ 
 
 
 
@@ -40,7 +28,7 @@ const Home = () => {
 
 
     
-        {/* <Button variant="primary" onClick={handleShow}>
+        <Button variant="primary" onClick={handleShow}>
         Web Developer
        </Button>
       <Modal show={show} onHide={handleClose}>
@@ -91,7 +79,7 @@ const Home = () => {
      
 
         <ListGroup.Item>Expirence</ListGroup.Item>
-        <ListGroup.Item>Extra Curricualars</ListGroup.Item> */}
+        <ListGroup.Item>Extra Curricualars</ListGroup.Item>
     
         </div>
 
