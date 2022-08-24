@@ -1,20 +1,23 @@
 html{
-    background-color: rgb(41, 44, 51);
+    background-color: #283c5c;
 }
 body {
-    background-color: rgb(41, 44, 51)
+    background-color: #283c5c;
 }
 .main {
-    color: #61dafb;
+    color: #2c8e8d;
     position: relative;
     bottom: -240px;
     left: 140px;
     float: left;
     
 }
+h2 {
+    color: #397981
+}
 
 .right{
-    color: #61dafb;
+    color: #2c8e8d;;
     position: relative;
     bottom: -100px;
     left: -220px;

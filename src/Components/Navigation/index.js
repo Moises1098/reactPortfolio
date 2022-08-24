@@ -13,9 +13,9 @@ const Navigation = (props) => {
         props.setPage(id)
     }
     return ( 
-<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" class="name">
 <Card.Img variant="left" src={ProfilePicture} height="100" />
-      <Navbar.Brand>Moises Gonzalez</Navbar.Brand>
+      <Navbar.Brand>  Moises Gonzalez</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
