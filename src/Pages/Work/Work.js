@@ -7,7 +7,7 @@ import CardGroup from "react-bootstrap/CardGroup"
 import Card from "react-bootstrap/Card"
 import Button from "react-bootstrap/Button"
 
-import './work.css'
+import './Work.css'
 const Work = () => {
     return (
         <div class="py-3 px-5">

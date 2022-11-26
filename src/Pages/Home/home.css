@@ -28,7 +28,7 @@ h2 {
     float: right;
 }
 
-h1 {
+header {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 8vh;
     
@@ -39,8 +39,12 @@ h2{
     font-family: 'Ubuntu', sans-serif;
     
 }
+h1{
+    text-align: center;
+}
 
-@media only screen and (max-width: 1045px) {
+
+@media (max-width: 1450px) {
     .main {
      justify-content: center;
      text-align: center;
@@ -50,7 +54,7 @@ h2{
 
 
      }
-     .right{
+     .right {
         justify-content: center;
         text-align: center;
         float: none;

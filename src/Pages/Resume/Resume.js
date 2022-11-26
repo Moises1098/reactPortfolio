@@ -1,5 +1,5 @@
 import Card from "react-bootstrap/Card"
-import './resume.css'
+import './Resume.css'
 const Resume = ()=>{
     return(
                <div class="py-3 px-5">
