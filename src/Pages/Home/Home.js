@@ -3,7 +3,7 @@ import List  from './List'
 import './Home.css'
 
 
-const Home = () => {
+export default function Home() {
   
 
   return (
@@ -25,4 +25,4 @@ const Home = () => {
 
 }
 
-export default Home
+

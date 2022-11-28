@@ -38,8 +38,9 @@ div.main h2 {
 }
 
 
-h1 {
+div h1 {
     text-align: center;
+    font-size: 50px;
 }
 
 
@@ -47,14 +48,14 @@ h1 {
     .main {
         justify-content: center;
         text-align: center;
-        bottom: -140px;
+        bottom: -55px;
         left: auto;
         float: none;
 
 
     }
     .right{
-       padding-top: 225px;
+       padding-top: 100px;
        position: absolute;
        float: none;
        right: 0vw;

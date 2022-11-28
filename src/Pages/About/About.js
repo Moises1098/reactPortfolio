@@ -1,6 +1,6 @@
 import React from "react"
 import './About.css'
-const About = ()=>{
+export default function About (){
     return (
         <div class="aboutMe">
            <header>About Me</header>
@@ -8,5 +8,3 @@ const About = ()=>{
         </div>
     )
 }
-
-export default About

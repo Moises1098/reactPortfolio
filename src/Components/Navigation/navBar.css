@@ -5,6 +5,9 @@ body {
   margin: 0;
   
 }
+.Page{
+  background-color: rgb(26, 31, 46);
+}
 
 .nav{
   background-color: rgb(15, 20, 24);

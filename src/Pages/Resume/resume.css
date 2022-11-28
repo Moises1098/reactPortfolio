@@ -1,10 +1,35 @@
+
 iframe {
-    height: 130vh;
-    width: 100%;
-    
+    height: 160vh;
+    width: 55vw;
+  
+}
+
+.Resume {
+    position: relative;
+    bottom: -55px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
 }
 
 header {
-    font-size: 25px;
-    font-weight: 700;
+    color: rgb(223, 200, 193);
+    font-family: clarendon-urw, serif;
+    font-size: 70px;
+
+}
+
+div.doc {
+    justify-content: center;
+    background-color: white;
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    height: 160vh;
+   margin-left: 12vw;
+   margin-right: 12vw;
+  
+    
 }
