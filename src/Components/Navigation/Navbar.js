@@ -13,17 +13,17 @@ const Navigation = (props) => {
         props.setPage(id)
     }
     return ( 
-<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" class="name">
-<Card.Img variant="left" src={ProfilePicture} height="100" />
-      <Navbar.Brand>  Moises Gonzalez</Navbar.Brand>
+<Navbar collapseOnSelect expand="lg" variant="dark" class="name">
+<Card.Img className="pfp" variant="left" src={ProfilePicture} height="100" />
+      <Navbar.Brand classsName="Name">Moises Gonzalez</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link onClick={clickHandler}href="#home" id="home">Home</Nav.Link>
+          <Nav.Link onClick={clickHandler}href="#Home" id="home">Home</Nav.Link>
           <Nav.Link onClick={clickHandler}href="#about" id="about">About Me</Nav.Link>
           <Nav.Link onClick={clickHandler}href="#contact" id="contact">Contact Me</Nav.Link>
-          <Nav.Link onClick={clickHandler}href="#work" id="work">Work</Nav.Link>
-          <Nav.Link onClick={clickHandler}href="#resume" id="resume">Resume</Nav.Link>
+          <Nav.Link onClick={clickHandler}href="#Work" id="work">Work</Nav.Link>
+          <Nav.Link onClick={clickHandler}href="#Resume" id="resume">Resume</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

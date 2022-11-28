@@ -1,3 +1,16 @@
-.name {
-    color: #e3eff5;
+.navbar-dark{
+  background-color: rgb(15, 20, 24);
+  font-family: minion-pro, serif;
+}
+.navbar-brand{
+  color: rgb(234, 220, 218);
+
+}
+.pfp {
+    padding-right: 30px;
+} 
+@media (max-width: 991px){
+  .pfp {
+    padding-right: 0px;
+}  
 }

@@ -1,9 +1,10 @@
 import React from 'react';
-import { List } from 'semantic-ui-react'
-
+import List  from './List'
 import './Home.css'
 
+
 const Home = () => {
+  
 
   return (
 
@@ -14,24 +15,7 @@ const Home = () => {
       </div>
 
       <div class="right">
-        <List>
-          <List.Item>
-            <List.Header>My Skills</List.Header>
-            Education
-          </List.Item>
-          <List.Item>
-            Awards
-          </List.Item>
-          <List.Item>
-            Music/Dance
-          </List.Item>
-          <List.Item>
-            Speaking Languages
-          </List.Item>
-          <List.Item>
-            Coding Languages
-          </List.Item>
-        </List>
+       <List />
       </div>
     </div>
 

@@ -1,0 +1,75 @@
+h1{
+    color: rgb(247, 220, 212);
+    font-size: 50px;
+    font-family: clarendon-urw, serif;
+    position: absolute;
+    border: 0px;
+    border-bottom: 5px;
+    border-color: rgb(15, 20, 24);
+    border-style: solid;    
+}
+.accordion1-title{ 
+    font-size: 25px;
+    font-family: clarendon-urw, serif;
+    color: rgb(234, 220, 218);
+    transition: all 0.5s;
+    text-align: left; 
+}
+.check{
+   display: inline;
+   justify-content: space-between;
+
+}
+
+.arrow{
+    filter: invert(75%);
+}
+
+.accordion1-title:hover{ 
+    color: rgb(117, 110, 109);
+    cursor: pointer;
+}
+.accordion1-title:active {
+    box-shadow: 0 5px transparent;
+    transform: translateY(5px);
+
+}
+div::selection{
+    background-color: rgba(245, 245, 245, 0.2);
+   
+}
+
+.accordion1-content{
+    font-family: franklin-gothic-condensed, sans-serif;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+.accordion{
+ padding-top: 65px;
+}
+  
+
+
+
+@media (max-width: 1450px) {
+    .accordion1-content, .accordion1-title{
+      text-align: center;
+      
+    
+    }
+
+    h1{
+        position: relative;
+        border: 0px;
+    }
+    .accordion{
+        padding-top: 0px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
