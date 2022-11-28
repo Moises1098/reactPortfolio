@@ -21,15 +21,15 @@ header {
 }
 
 div.doc {
+    min-width: 56vw;
     justify-content: center;
     background-color: white;
-    border-width: 5px;
     border-radius: 10px;
     border-style: solid;
     border-color: white;
     height: 160vh;
-   margin-left: 12vw;
-   margin-right: 12vw;
+   margin-left: 20vw;
+   margin-right: 20vw;
   
     
 }
