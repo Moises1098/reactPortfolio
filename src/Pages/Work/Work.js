@@ -8,7 +8,8 @@ import Card from "react-bootstrap/Card"
 import Button from "react-bootstrap/Button"
 
 import './Work.css'
-const Work = () => {
+
+export default function Work() {
   return (
     <div class="Work">
       <header>My Work</header>
@@ -87,4 +88,3 @@ const Work = () => {
   )
 }
 
-export default Work

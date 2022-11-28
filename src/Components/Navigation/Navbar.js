@@ -1,32 +1,27 @@
-import React from "react";
-import Navbar from "react-bootstrap/Navbar"
-import Nav from "react-bootstrap/Nav"
-import ProfilePicture from './assets/images/ProfilePicture-modified.png'
-import Card from "react-bootstrap/Card"
 import './navBar.css'
-import "bootstrap/dist/css/bootstrap.min.css";
+import React, { Children } from 'react'
 
-
-const Navigation = (props) => { 
-    const clickHandler = (event) => {
-        const id = event.target.id
-        props.setPage(id)
-    }
-    return ( 
-<Navbar collapseOnSelect expand="lg" variant="dark" class="name">
-<Card.Img className="pfp" variant="left" src={ProfilePicture} height="100" />
-      <Navbar.Brand classsName="Name">Moises Gonzalez</Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="mr-auto">
-          <Nav.Link onClick={clickHandler}href="#Home" id="home">Home</Nav.Link>
-          <Nav.Link onClick={clickHandler}href="#about" id="about">About Me</Nav.Link>
-          <Nav.Link onClick={clickHandler}href="#contact" id="contact">Contact Me</Nav.Link>
-          <Nav.Link onClick={clickHandler}href="#Work" id="work">Work</Nav.Link>
-          <Nav.Link onClick={clickHandler}href="#Resume" id="resume">Resume</Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
-    )  
+export default function NavBar() {
+  return <nav className="nav">
+    <a href="/" className="nav-name">Moises Gonzalez</a>
+    <ul>
+      <CustomLink href="/home">Home</CustomLink>
+      <CustomLink href="/about">About</CustomLink>
+      <CustomLink href="/contact">Contact</CustomLink>
+      <CustomLink href="/work">Work</CustomLink>
+      <CustomLink href="/resume">Resume</CustomLink>
+    </ul>
+  </nav>
 }
-export default Navigation
+
+function CustomLink({ href, children, ...props }) {
+  const path = window.location.pathname
+  
+  return (
+    <li className={path === href ? "active" : ""}>
+      <a href={href} {...props}>{children}</a>
+    </li>
+  )
+}
+
+

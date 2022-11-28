@@ -1,7 +1,9 @@
 .aboutMe {
-    padding-top: 100px;
-    margin-left: 40px;
-    margin-right: 40px;
+    position: relative;
+    bottom: -150px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
 }
 .aboutMe header {
     color: rgb(223, 200, 193);

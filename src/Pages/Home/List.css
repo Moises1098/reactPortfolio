@@ -50,7 +50,7 @@ div::selection{
     
 }
 .accordion{
- padding-top: 65px;
+ padding-top: 105px;
 }
   
 
@@ -66,6 +66,7 @@ div::selection{
     h1{
         position: relative;
         border: 0px;
+        margin-bottom: 10px;
     }
     .accordion{
         padding-top: 0px;

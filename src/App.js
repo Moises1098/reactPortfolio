@@ -1,36 +1,33 @@
-import { useState } from 'react';
 import './App.css';
-import Navigation from './Components/Navigation/Navbar';
+import NavBar from './Components/Navigation/Navbar';
+import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
 import ContactMe from './Pages/ContactMe/ContactMe';
-import Home from './Pages/Home/Home';
-import Resume from './Pages/Resume/Resume';
 import Work from './Pages/Work/Work';
+import Resume from './Pages/Resume/Resume';
+import {Route, Routes } from 'react-router-dom';
+
+
 
 
 function App() {
-  const [page, setPage] = useState('home')
-  const Render = () => {
-    // eslint-disable-next-line default-case
-    switch(page){
-      case 'home':
-      return <Home />
-      case 'about':
-      return <About />     
-      case 'contact':
-      return <ContactMe />
-      case 'work':
-      return <Work />
-      case 'resume':
-      return <Resume />
-    }
-    
-  }
+  
+
+
   return (
-    <div className="App">
-      <Navigation page={page} setPage={setPage}/>
-      <Render />
-    </div>
+    <>
+      <NavBar />
+      <div className="container">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<ContactMe />} />
+        <Route path="/work" element={<Work />} />
+        <Route path="/resume" element={<Resume />} />
+      </Routes>
+      </div>
+    </>
   );
 }
 
