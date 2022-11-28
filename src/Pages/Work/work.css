@@ -1,10 +1,23 @@
 
-.title {
-    font-size: 26px;
-    font-weight: 720;
+.Work {
+    padding-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 header {
-    font-size: 25px;
-    font-weight: 700;
+    color: rgb(223, 200, 193);
+    font-family: clarendon-urw, serif;
+    font-size: 80px;
+    border: 0px;
+}
+
+.btn-primary{
+    --bs-btn-bg: rgb(223, 200, 193);
+    --bs-btn-border-color:rgb(223, 200, 193);
+    --bs-btn-active-bg:rgb(223, 200, 193);
+    --bs-btn-active-border-color: rgb(223, 200, 193);
+    --bs-btn-hover-bg:rgb(117, 110, 109);
+    --bs-btn-hover-border-color: rgb(117, 110, 109);
+    --bs-btn-color: black;
 }

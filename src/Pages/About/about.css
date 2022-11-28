@@ -1,9 +1,18 @@
-#header {
-font-size: 25px;
-font-weight: 700;
-}
-
 .aboutMe {
+    padding-top: 100px;
     margin-left: 40px;
     margin-right: 40px;
+}
+.aboutMe header {
+    color: rgb(223, 200, 193);
+    font-family: clarendon-urw, serif;
+    font-size: 80px;
+    border: 0px;
+}
+
+.aboutMe h2 {
+    color: rgb(234, 220, 218);
+    font-family: franklin-gothic-extra-compre, sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }

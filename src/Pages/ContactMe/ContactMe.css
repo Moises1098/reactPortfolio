@@ -1,4 +1,21 @@
-#header {
-    font-size: 25px;
-    font-weight: 700;
-    }
+.contactMe{
+    padding-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.contactMe header{
+    color: rgb(223, 200, 193);
+    font-family: clarendon-urw, serif;
+    font-size: 80px;
+    border: 0px;
+}
+
+.contactMe h2, a {
+    color: rgb(234, 220, 218);
+    font-family: franklin-gothic-extra-compre, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.contactMe a:hover{
+    color: rgb(117, 110, 109);
+}
