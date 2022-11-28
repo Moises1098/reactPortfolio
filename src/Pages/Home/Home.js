@@ -8,7 +8,7 @@ const Home = () => {
 
   return (
 
-    <div>
+    <>
       <div className='main'>
         <header>Hi! I'm Moises Gonzalez</header>
         <h2>Welcome to my online portfolio</h2>
@@ -17,7 +17,7 @@ const Home = () => {
       <div class="right">
        <List />
       </div>
-    </div>
+    </>
 
 
   )

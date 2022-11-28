@@ -1,6 +1,6 @@
 .aboutMe {
     position: relative;
-    bottom: -150px;
+    bottom: -55px;
     padding-left: 100px;
     padding-right: 100px;
     text-align: center;
@@ -8,7 +8,7 @@
 .aboutMe header {
     color: rgb(223, 200, 193);
     font-family: clarendon-urw, serif;
-    font-size: 80px;
+    font-size: 70px;
     border: 0px;
 }
 

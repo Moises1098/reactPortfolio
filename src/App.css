@@ -2,6 +2,9 @@
   text-align: center;
 }
 
+.Page{
+  background-color: rgb(26, 31, 46);
+}
 
 /* Style the tab */
 .tab {

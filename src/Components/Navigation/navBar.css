@@ -19,7 +19,11 @@ body {
 
 }
 .nav-name{
-  font-size: 2rem;
+  font-size: 2.5rem;
+}
+
+a.nav-name:hover {
+  color: rgb(117, 110, 109)!;
 }
 
 .nav ul {
@@ -31,7 +35,7 @@ body {
 }
 
 .nav a {
-  color: inherit;
+  color: rgb(223, 200, 193);
   text-decoration: none;
   height: 100%;
   display: flex;
@@ -39,13 +43,24 @@ body {
   padding: .25rem;
 }
 
+.nav a:hover{
+  color: rgb(117, 110, 109);
+}
+
+
+
 .nav li.active {
-  background-color: #555;
+  background-color: rgb(117, 110, 109);
+  
 }
 
 .nav li:hover {
-  background-color: #777;
+  background-color:rgb(223, 200, 193);
+ 
+ 
 }
+
+
 
 
 

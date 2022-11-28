@@ -1,23 +1,62 @@
 
 .Work {
-    padding-top: 100px;
-    margin-left: 40px;
-    margin-right: 40px;
+    position: relative;
+    bottom: -55px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
 }
 
-header {
+.Work header {
     color: rgb(223, 200, 193);
     font-family: clarendon-urw, serif;
-    font-size: 80px;
+    font-size: 70px;
     border: 0px;
 }
 
-.btn-primary{
-    --bs-btn-bg: rgb(223, 200, 193);
-    --bs-btn-border-color:rgb(223, 200, 193);
-    --bs-btn-active-bg:rgb(223, 200, 193);
-    --bs-btn-active-border-color: rgb(223, 200, 193);
-    --bs-btn-hover-bg:rgb(117, 110, 109);
-    --bs-btn-hover-border-color: rgb(117, 110, 109);
-    --bs-btn-color: black;
+.link{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.content {
+    font-size: 12px;
+}
+.link:hover{
+    color:rgb(223, 200, 193); ;
+}
+
+a.btn.btn-primary{
+    --cui-btn-bg: rgb(223, 200, 193);
+    --cui-btn-border-color:rgb(223, 200, 193);
+    --cui-btn-active-bg:rgb(223, 200, 193);
+    --cui-btn-active-border-color: rgb(223, 200, 193);
+    --cui-btn-hover-bg:rgb(117, 110, 109);
+    --cui-btn-hover-border-color: rgb(117, 110, 109);
+    --cui-btn-color: white;
+
+}
+
+div.card {
+    margin: 30px 10px 0px;
+    
+}
+
+div.card.main-top{
+  width: 80vw;
+  display: inline-flex;
+  justify-content: center;
+}
+
+div.card-second{
+    width: 25rem;
+    display: inline-flex;
+    justify-content: center;
+}
+
+img.Github{
+ width: 1rem;
+ padding-bottom: 3px;
+
 }

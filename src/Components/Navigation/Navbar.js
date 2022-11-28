@@ -1,15 +1,15 @@
 import './navBar.css'
-import React, { Children } from 'react'
+import React from 'react'
 
 export default function NavBar() {
   return <nav className="nav">
     <a href="/" className="nav-name">Moises Gonzalez</a>
     <ul>
-      <CustomLink href="/home">Home</CustomLink>
-      <CustomLink href="/about">About</CustomLink>
-      <CustomLink href="/contact">Contact</CustomLink>
-      <CustomLink href="/work">Work</CustomLink>
-      <CustomLink href="/resume">Resume</CustomLink>
+      <CustomLink className="nav-tab" href="/home">Home</CustomLink>
+      <CustomLink className="nav-tab" href="/about">About</CustomLink>
+      <CustomLink className="nav-tab" href="/contact">Contact</CustomLink>
+      <CustomLink className="nav-tab" href="/work">Work</CustomLink>
+      <CustomLink className="nav-tab" href="/resume">Resume</CustomLink>
     </ul>
   </nav>
 }

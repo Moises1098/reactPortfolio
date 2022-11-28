@@ -1,14 +1,12 @@
 .contactMe{
     position: relative;
-    bottom: -150px;
-    padding-left: 100px;
-    padding-right: 100px;
+    bottom: -55px;
     text-align: center;
 }
 .contactMe header{
     color: rgb(223, 200, 193);
     font-family: clarendon-urw, serif;
-    font-size: 80px;
+    font-size: 70px;
     border: 0px;
 }
 
